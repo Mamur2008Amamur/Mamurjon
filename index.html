@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+        crossorigin="anonymous">
+        <style>
+            .none{
+                display: none;
+            }
+            .block{
+                display: block;
+            }
+            .flex{
+                display: flex;
+            }
+            .true{
+                background: green;
+            }
+            .false{
+                background: crimson;
+            }
+        </style> 
+    </head>
+    <body class="bg-dark">
+        <div class=" start text-light text-center d-flex align-items-cneter" style="min-height: 100vh;">
+            <div class="container">
+                <h1 class="start_text" style="margin-top: 250px;">0</h1>
+                <button class="btn btn-success start_btn">Boshlash</button>
+            </div>
+        </div>
+        <template>
+            <div class="game_savol text-light">
+                <h2 class="savol_text">Savol ?</h2>
+                <ul class="savollar_ul">
+
+                </ul>
+                <button class="btn btn-primary">Keyingi savol</button>
+            </div>
+        </template>
+        <div class="game align-items-center text-center" style="min-height: 100vh;">
+            <div class="container">
+                <h1 class=" game_text_start text-danger">Nemis tili savollariga marhamat</h1>
+                <div class="result">
+                    
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+        crossorigin="anonymous"></script>
+        <script src="./JS/main.js"></script>
+        <script src="./JS/savollar.js"></script>
+        <script src="./JS/utils.js"></script>
+    </body>
+    </html>
